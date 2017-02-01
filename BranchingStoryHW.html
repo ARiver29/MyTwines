@@ -99,8 +99,12 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
 	<div id="store-area" hidden><tw-storydata name="Branching Story HW" startnode="1" creator="Twine" creator-version="2.0.11" ifid="AC813596-AE86-4B0B-B4CC-FEB416AFFCC8" format="SugarCube 2 (local/offline)" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">/*! <<cyclinglink>> macro for SugarCube 2.x */
 !function(){"use strict";if("undefined"==typeof version||"undefined"==typeof version.title||"SugarCube"!==version.title||"undefined"==typeof version.major||version.major<2)throw new Error("<<cyclinglink>> macro requires SugarCube 2.0 or greater, aborting load");version.extensions.cyclinglinkMacro={major:3,minor:3,revision:2},macros.cyclinglink={handler:function(a,b,c){function toggleText(w){w.classList.remove("cyclingLinkInit"),w.classList.toggle(rl+"Enabled"),w.classList.toggle(rl+"Disabled"),w.style.display="none"===w.style.display?"inline":"none"}var rl="cyclingLink";switch(c[c.length-1]){case"end":var end=!0;c.pop();break;case"out":var out=!0;c.pop()}var v=null;c.length&&"$"===c[0][0]&&(v=c[0].slice(1),c.shift());var h=State.variables;if(!out||!v||""!==h[v]){var l=insertElement(a,"a");l.className="link-internal cyclingLink",l.setAttribute("data-cycle",0);for(var i=0;i<c.length;i++){var on=i===(v?Math.max(c.indexOf(h[v]),0):0),d=insertElement(null,"span",null,"cyclingLinkInit cyclingLink"+(on?"En":"Dis")+"abled");on?(v&&(h[v]=c[i]),l.setAttribute("data-cycle",i)):d.style.display="none",insertText(d,c[i]),on&&end&&i===c.length-1?l.parentNode.replaceChild(d,l):l.appendChild(d)}jQuery(l).ariaClick(function(){var t=this.childNodes,u=this.getAttribute("data-cycle")-0,m=t.length;if(toggleText(t[u]),u+=1,out&&u===m?v&&(h[v]=""):(u%=m,v&&(h[v]=c[u])),(end||out)&&u===m-(end?1:0)){if(!end)return void this.parentNode.removeChild(this);var n=this.removeChild(t[u]);return n.className=rl+"End",n.style.display="inline",void this.parentNode.replaceChild(n,this)}toggleText(t[u]),this.setAttribute("data-cycle",u)})}}}}();
+
+
 
 </script><tw-passagedata pid="1" name="Start" tags="" position="476,38">You, all of people, never thought you&#39;d have enough care nor consideration to even attempt to get in the mind of a sour-faced, little stray cat. But when you woke up this morning and saw a clump of calico fur laying in your backyard, you couldn&#39;t help but pay a little attention to it. 
 
@@ -109,9 +113,8 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 What should you do? 
 
 [[Take a closer look at it-&gt;Watch]]
-[[Find it something to eat-&gt;Food]]
 [[Chase it around-&gt;Chase]]</tw-passagedata>
-<tw-passagedata pid="2" name="Watch" tags="" position="505,261">&lt;img src=&quot;https://ariver29.github.io/MyTwines/Images/Sleeping cat.jpg&quot;&gt;
+<tw-passagedata pid="2" name="Watch" tags="" position="624,130">&lt;img src=&quot;https://ariver29.github.io/MyTwines/Images/Sleeping cat.jpg&quot;&gt;
 
 You decide to take a closer look at it. You look out the window at the cat and notice that it&#39;s sleeping in one of your beloved gardening pots. 
 
@@ -134,7 +137,7 @@ That&#39;s one of your most-used pots, ya know. You use it plant your favorite f
 &lt;&lt;textbox &quot;$flower&quot; &quot;&quot; autofocus&gt;&gt; 
 
 [[Next -&gt;Flowers]]</tw-passagedata>
-<tw-passagedata pid="6" name="Throw" tags="" position="289,268">Grabbing a rock, you target the poor, defenseless creature. With perfect aim and trajectory, it zeroes in on the cat and hits one of its back paws. The cat jolts awake, confused and ready to run away. 
+<tw-passagedata pid="6" name="Throw" tags="" position="248,279">Grabbing a rock, you target the poor, defenseless creature. With perfect aim and trajectory, it zeroes in on the cat and hits one of its back paws. The cat jolts awake, confused and ready to run away. 
 
 What are you gonna do now? 
 
@@ -192,16 +195,16 @@ It practically inhales the food as soon as you drop it. When it finishes, it jus
 It was so upset, it bit you! And you were so irked, you hit it back! 
 
 [[Shame on you-&gt;Ending: Run]]</tw-passagedata>
-<tw-passagedata pid="16" name="Try" tags="" position="547,562">Strecthing, the cat walks over to you. It sits down in front of you and starts whining. 
+<tw-passagedata pid="16" name="Try" tags="" position="654,436">Strecthing, the cat walks over to you. It sits down in front of you and starts whining. 
 
 [[Meow back for kicks and giggles-&gt;Meow]]
 [[Kick the cat-&gt;Ending: Run]] </tw-passagedata>
-<tw-passagedata pid="17" name="Meow" tags="" position="332,601">&lt;img src=&quot;https://ariver29.github.io/MyTwines/Images/Frowny.jpg&quot;&gt;
+<tw-passagedata pid="17" name="Meow" tags="" position="435,531">&lt;img src=&quot;https://ariver29.github.io/MyTwines/Images/Frowny.jpg&quot;&gt;
 
 The stray cat keeps whining, and you can&#39;t help but wonder what it&#39;s trying to say. Is it trying to communicate with you? Or is it just being an annoying little furball?
 
 [[Meow back again-&gt;Reply]]</tw-passagedata>
-<tw-passagedata pid="18" name="Reply" tags="" position="124,545">&lt;img src=&quot;https://ariver29.github.io/MyTwines/Images/Meow.gif&quot;&gt;
+<tw-passagedata pid="18" name="Reply" tags="" position="202,579">&lt;img src=&quot;https://ariver29.github.io/MyTwines/Images/Meow.gif&quot;&gt;
 
 As a poorly written attempt to humor yourself, you meow back at it, hoping you say &#39;hello&#39; in cat language. Fortunately for you, the cat meows back at you, and you have something relative of a conversation with it - despite having absolutely no idea what&#39;s going on. 
 
@@ -212,12 +215,12 @@ As a poorly written attempt to humor yourself, you meow back at it, hoping you s
 You go back inside your house. When you left, the stray cat looked a bit lonely, but you convince yourself that it&#39;ll be fine. 
 
 [[Start over-&gt;Start]]</tw-passagedata>
-<tw-passagedata pid="20" name="Name" tags="" position="328,751">You want to give the adorable thing a name. You wonder what a good cat name would be. 
+<tw-passagedata pid="20" name="Name" tags="" position="389,656">You want to give the adorable thing a name. You wonder what a good cat name would be. 
 
 &lt;&lt;textbox &quot;$name&quot; &quot;&quot; autofocus&gt;&gt;
 
 [[Next-&gt;After Name]]</tw-passagedata>
-<tw-passagedata pid="21" name="After Name" tags="" position="531,701">//$name//! What a sweet name - perfect for the little furball in front of you. 
+<tw-passagedata pid="21" name="After Name" tags="" position="575,593">//$name//! What a sweet name - perfect for the little furball in front of you. 
 
 &quot;$name.&quot; You decide to say its newly bestowed name, hoping it&#39;ll respond. You knew fully well though that it wouldn&#39;t. And as such, it simply looked at you with wide eyes. 
 
@@ -225,14 +228,14 @@ You aren&#39;t even friends with it yet. What should you do next?
 
 [[Try to play with the cat-&gt;Play]]
 [[Try to pet the cat-&gt;Pet]]</tw-passagedata>
-<tw-passagedata pid="22" name="Play" tags="" position="723,681">&lt;img src=&quot;https://ariver29.github.io/MyTwines/Images/Playing_Cat.gif&quot; height=&quot;200&quot;&gt;
+<tw-passagedata pid="22" name="Play" tags="" position="593,752">&lt;img src=&quot;https://ariver29.github.io/MyTwines/Images/Playing_Cat.gif&quot; height=&quot;200&quot;&gt;
 
-Aaww! How sweet! 
+Aaww! How sweet! Could it be that $name is starting to like you? You sure hope so.
 
 [[Try petting the cat-&gt;Pet]]
 
 &lt;&lt;set $playedWith = true&gt;&gt;</tw-passagedata>
-<tw-passagedata pid="23" name="Pet" tags="" position="681,851">&lt;&lt;if $playedWith ==true &gt;&gt;
+<tw-passagedata pid="23" name="Pet" tags="" position="854,690">&lt;&lt;if $playedWith ==true &gt;&gt;
 	It seems like it&#39;s more comfortable around you now. You start petting the cat, and it looks like it&#39;s enjoying your company!
 	&lt;img src=&quot;https://ariver29.github.io/MyTwines/Images/Pet_Cat.gif&quot; height=&quot;250&quot;&gt;
 	
@@ -243,7 +246,13 @@ Aaww! How sweet!
 	You don&#39;t think it likes you all that much yet. Maybe you should try [[playing with the cat-&gt;Play]] for a little bit. 
 	
 &lt;&lt;/if&gt;&gt;</tw-passagedata>
-<tw-passagedata pid="24" name="MaybeFriends" tags="" position="463,913">You&#39;ve enjoyed spending this some nice quality time with $name, and all, but you&#39;ve got a rather busy day ahead of you. By the relaxed expression on $name&#39;s face, you believe that $name has warmed up to you in the last few minutes. You&#39;re glad you decided to pay attention to this stray cat. 
+<tw-passagedata pid="24" name="MaybeFriends" tags="" position="753,853">You can hear $name start purring super loudly, and for a few seconds, you stare at it and try to refrain from making fun of its obnoxious purring. That &#39;&#39;//would//&#39;&#39; be rather rude, after all; even if it is just a cat. 
+
+When $name starts rubbing its face against your hand, you realize that you&#39;ve stopped petting it a short while ago. 
+
+[[Anyways-&gt;Ending: Yay]]
+[[Pet again-&gt;Pet]]</tw-passagedata>
+<tw-passagedata pid="25" name="Ending: Yay" tags="" position="509,917">You&#39;ve enjoyed spending this some nice quality time with $name, and all, but you&#39;ve got a rather busy day ahead of you. By the relaxed expression on $name&#39;s face, you believe that $name has warmed up to you in the last few minutes. You&#39;re glad you decided to pay attention to this stray cat. 
 
 &lt;img src=&quot;https://ariver29.github.io/MyTwines/Images/Mitchiri.gif&quot;&gt;
 
